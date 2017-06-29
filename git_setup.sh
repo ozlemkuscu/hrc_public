@@ -5,7 +5,7 @@
 
 #be sure to update these vars:
 REMOTE_PATH=/Volumes/inet/secure/docs/webapps/source/
-APP_NAME=app_name.git
+APP_NAME=hrc_public.git
 
 #get current dir
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
