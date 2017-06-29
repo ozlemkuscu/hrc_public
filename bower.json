@@ -1,0 +1,13 @@
+{
+  "name": "human_rights",
+  "description": "Human Rights Complaints",
+  "authors": [
+    "Ozlem Kuscu"
+  ],
+  "private": true,
+  "dependencies": {
+    "core": "https://github.com/CityofToronto/corejs.git#^2.1.0",
+    "jquery.serializejson.js":"jquery.serializeJSON#^2.7.2",
+    "dropzone":"dropzone#^4.3.0"
+  }
+}
