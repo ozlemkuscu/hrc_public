@@ -103,7 +103,6 @@ function initForm() {
   })
 
   var dataCreated = new Date();
-  // dataCreated = moment(dataCreated).format(config.dateTimeFormat);
   $("#complaintCreated").val(dataCreated);
   $("#yearCreated").val(dataCreated.getFullYear());
   $("#complaintStatus").val("New");
@@ -260,7 +259,7 @@ function submitForm() {
   ///  let payload = getFormJSON("hrc");
   payload.uploads = processUploads(myDropzone, repo, false);
 
-  let queryString = payload.uploads[0] ? "?KeepFiles=" + payload.uploads[0].bin_id : "";
+  let queryString = payload.uploads[0] ? "?keepFiles=" + payload.uploads[0].bin_id : "";
 
   $.ajax({
     url: config.httpHost.app_public[httpHost] + config.api_public.post + repo + queryString,
